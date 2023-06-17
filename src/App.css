@@ -13,15 +13,19 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
+.div-top {
+  clip-path: polygon(23% 41%, 100% 64%, 100% 100%, 0 100%);
+  background-color: white;
+}
+
+.App-body {
+  background: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding-top: 0.75rem;
 }
 
 .App-link {
